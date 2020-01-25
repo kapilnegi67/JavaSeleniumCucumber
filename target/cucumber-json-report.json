@@ -1,0 +1,287 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1407032,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.Setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 400029,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login with correct username and password",
+        "description": "",
+        "id": "tagging-explanation;login-with-correct-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 195878,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.TearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 149837,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 281194,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Dummy Correct Login with username and password",
+            "match": {
+              "location": "TaggingStepDefinition.dummy_Correct_Login_with_username_and_password()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 297311,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.Setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 190448,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Login with incorrect username and password",
+        "description": "",
+        "id": "tagging-explanation;login-with-incorrect-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 132559,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.TearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 133343,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 106785,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Dummy InCorrect Login with username and password",
+            "match": {
+              "location": "TaggingStepDefinition.dummy_InCorrect_Login_with_username_and_password()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 289393,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.Setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 207347,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Create a User",
+        "description": "",
+        "id": "tagging-explanation;create-a-user",
+        "after": [
+          {
+            "result": {
+              "duration": 802742,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.TearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 162751,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 157963,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Dummy Create a User",
+            "match": {
+              "location": "TaggingStepDefinition.dummy_Create_a_User()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 842467,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.Setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 217470,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Send an email",
+        "description": "",
+        "id": "tagging-explanation;send-an-email",
+        "after": [
+          {
+            "result": {
+              "duration": 152196,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.TearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 115207,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 177048,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Dummy Send an email",
+            "match": {
+              "location": "TaggingStepDefinition.dummy_Send_an_email()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Tagging explanation",
+    "description": "",
+    "id": "tagging-explanation",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/Features/tagging.feature",
+    "tags": []
+  }
+]

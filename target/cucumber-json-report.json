@@ -6,44 +6,62 @@
         "before": [
           {
             "result": {
-              "duration": 1407032,
-              "status": "passed"
-            },
-            "match": {
-              "location": "HooksStepDefinition.Setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 400029,
+              "duration": 1750487,
               "status": "passed"
             },
             "match": {
               "location": "TaggedHooksStepDefinition.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 243468,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.beforeFirst()"
+            }
+          },
+          {
+            "result": {
+              "duration": 799014,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.Setup()"
             }
           }
         ],
         "line": 4,
-        "name": "Login with correct username and password",
+        "name": "This is first test",
         "description": "",
-        "id": "tagging-explanation;login-with-correct-username-and-password",
+        "id": "tagged-hooks-demo;this-is-first-test",
         "after": [
           {
             "result": {
-              "duration": 195878,
-              "status": "passed"
-            },
-            "match": {
-              "location": "HooksStepDefinition.TearDown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 149837,
+              "duration": 486058,
               "status": "passed"
             },
             "match": {
               "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 202359,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.AfterFirst()"
+            }
+          },
+          {
+            "result": {
+              "duration": 155687,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.TearDown()"
             }
           }
         ],
@@ -52,20 +70,44 @@
         "steps": [
           {
             "result": {
-              "duration": 281194,
+              "duration": 356791,
               "status": "passed"
             },
             "line": 5,
-            "name": "Dummy Correct Login with username and password",
+            "name": "StepOne",
             "match": {
-              "location": "TaggingStepDefinition.dummy_Correct_Login_with_username_and_password()"
+              "location": "TaggedHooksStepDefinition.stepone()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 200547,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "StepTwo",
+            "match": {
+              "location": "TaggedHooksStepDefinition.steptwo()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 166005,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "StepThree",
+            "match": {
+              "location": "TaggedHooksStepDefinition.stepthree()"
             },
             "keyword": "Given "
           }
         ],
         "tags": [
           {
-            "name": "@SmokeTest"
+            "name": "@First"
           }
         ]
       },
@@ -73,44 +115,44 @@
         "before": [
           {
             "result": {
-              "duration": 297311,
-              "status": "passed"
-            },
-            "match": {
-              "location": "HooksStepDefinition.Setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 190448,
+              "duration": 174303,
               "status": "passed"
             },
             "match": {
               "location": "TaggedHooksStepDefinition.setup()"
             }
-          }
-        ],
-        "line": 8,
-        "name": "Login with incorrect username and password",
-        "description": "",
-        "id": "tagging-explanation;login-with-incorrect-username-and-password",
-        "after": [
-          {
-            "result": {
-              "duration": 132559,
-              "status": "passed"
-            },
-            "match": {
-              "location": "HooksStepDefinition.TearDown()"
-            }
           },
           {
             "result": {
-              "duration": 133343,
+              "duration": 149891,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.Setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "This is second test",
+        "description": "",
+        "id": "tagged-hooks-demo;this-is-second-test",
+        "after": [
+          {
+            "result": {
+              "duration": 168914,
               "status": "passed"
             },
             "match": {
               "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 681804,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.TearDown()"
             }
           }
         ],
@@ -119,90 +161,44 @@
         "steps": [
           {
             "result": {
-              "duration": 106785,
+              "duration": 74430,
               "status": "passed"
             },
-            "line": 9,
-            "name": "Dummy InCorrect Login with username and password",
+            "line": 11,
+            "name": "StepOne",
             "match": {
-              "location": "TaggingStepDefinition.dummy_InCorrect_Login_with_username_and_password()"
+              "location": "TaggedHooksStepDefinition.stepone()"
             },
             "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@RegressionTest"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 289393,
-              "status": "passed"
-            },
-            "match": {
-              "location": "HooksStepDefinition.Setup()"
-            }
           },
           {
             "result": {
-              "duration": 207347,
+              "duration": 67043,
               "status": "passed"
             },
+            "line": 12,
+            "name": "StepTwo",
             "match": {
-              "location": "TaggedHooksStepDefinition.setup()"
-            }
-          }
-        ],
-        "line": 12,
-        "name": "Create a User",
-        "description": "",
-        "id": "tagging-explanation;create-a-user",
-        "after": [
-          {
-            "result": {
-              "duration": 802742,
-              "status": "passed"
+              "location": "TaggedHooksStepDefinition.steptwo()"
             },
-            "match": {
-              "location": "HooksStepDefinition.TearDown()"
-            }
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 162751,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 157963,
+              "duration": 62709,
               "status": "passed"
             },
             "line": 13,
-            "name": "Dummy Create a User",
+            "name": "StepThree",
             "match": {
-              "location": "TaggingStepDefinition.dummy_Create_a_User()"
+              "location": "TaggedHooksStepDefinition.stepthree()"
             },
             "keyword": "Given "
           }
         ],
         "tags": [
           {
-            "name": "@RegressionTest"
+            "name": "@Second"
           }
         ]
       },
@@ -210,44 +206,44 @@
         "before": [
           {
             "result": {
-              "duration": 842467,
-              "status": "passed"
-            },
-            "match": {
-              "location": "HooksStepDefinition.Setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 217470,
+              "duration": 166364,
               "status": "passed"
             },
             "match": {
               "location": "TaggedHooksStepDefinition.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 140772,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.Setup()"
             }
           }
         ],
         "line": 16,
-        "name": "Send an email",
+        "name": "This is third test",
         "description": "",
-        "id": "tagging-explanation;send-an-email",
+        "id": "tagged-hooks-demo;this-is-third-test",
         "after": [
           {
             "result": {
-              "duration": 152196,
-              "status": "passed"
-            },
-            "match": {
-              "location": "HooksStepDefinition.TearDown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 115207,
+              "duration": 86797,
               "status": "passed"
             },
             "match": {
               "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 79873,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.TearDown()"
             }
           }
         ],
@@ -256,32 +252,53 @@
         "steps": [
           {
             "result": {
-              "duration": 177048,
+              "duration": 125848,
               "status": "passed"
             },
             "line": 17,
-            "name": "Dummy Send an email",
+            "name": "StepOne",
             "match": {
-              "location": "TaggingStepDefinition.dummy_Send_an_email()"
+              "location": "TaggedHooksStepDefinition.stepone()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 90997,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "StepTwo",
+            "match": {
+              "location": "TaggedHooksStepDefinition.steptwo()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 88465,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "StepThree",
+            "match": {
+              "location": "TaggedHooksStepDefinition.stepthree()"
             },
             "keyword": "Given "
           }
         ],
         "tags": [
           {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@RegressionTest"
+            "name": "@Third"
           }
         ]
       }
     ],
-    "name": "Tagging explanation",
+    "name": "Tagged Hooks Demo",
     "description": "",
-    "id": "tagging-explanation",
+    "id": "tagged-hooks-demo",
     "keyword": "Feature",
-    "uri": "file:src/main/java/Features/tagging.feature",
+    "uri": "file:src/main/java/Features/taggedHooks.feature",
     "tags": []
   }
 ]

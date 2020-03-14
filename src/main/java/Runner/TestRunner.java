@@ -11,8 +11,8 @@ import cucumber.api.junit.Cucumber;
 		monochrome = true,
 //		strict = true,
 		plugin = {"html:target/cucumber-html-report", "json:target/cucumber-json-report.json" },
-		tags = {"@SmokeTest, @RegressionTest"}, // comma (,) means or
-		features = "src/main/java/Features/", // It tells where your feature files are, full path is also acceptable here
+//		tags = {"@SmokeTest or @RegressionTest"}, // comma (,) means or
+		features = "src/main/java/Features/taggedHooks.feature", // It tells where your feature files are, full path is also acceptable here
 		glue = {"stepDefinitions"} // It tells where your step Definition files are, full path is also acceptable here
 		)
 

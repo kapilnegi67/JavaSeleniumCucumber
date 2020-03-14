@@ -32,7 +32,9 @@ public class ParameterizeStepDefinition {
 	public void user_enters_username_and_password(DataTable credentials) {
 		for (Map<Object, Object> data : credentials.asMaps(String.class, String.class))
 		{
+			driver.findElement(By.name("email")).clear();
 			driver.findElement(By.name("email")).sendKeys(data.get("username").toString());
+			driver.findElement(By.name("password")).clear();
 			driver.findElement(By.name("password")).sendKeys(data.get("password").toString());
 		}
 	}
